@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+header{
+    background-color: #128c7e;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+
+    max-width: 1050px;
+    padding: 0 32px;
+    width: 100%;
+    margin: auto; 
+
+}
+
+nav  ul.menu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-grow: 1;
+    
+}
+li a{
+    color: white; 
+
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav select{
+    color: white; 
+
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+.ft{
+    padding: 156px 0 56px 0;
+}
+
+img.image{
+    max-width: 304px;
+
+}
+
+.feature{
+    max-width: 788px;
+    width: 100%;
+    margin: auto; 
+    
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50%;
+
+    color:#1c1e21;
+
+}
+.w1440 a{
+    text-decoration: none;
+    color: #39b3ed;
+} 
+.w1440 a:hover{
+    text-decoration: underline; 
+}
+
+.content h2{
+    font-size: 33px;
+    line-height: 43px;
+    font-weight: 400;
+}
+.pb16{
+    padding-bottom: 16px;
+}
+
+.content p{
+    font-size: 18px;
+    margin: 18px 0;
+    line-height: 26px; 
+}
+.content .small{
+    font-size: 16px;
+    color: #5E5E5E;
+    padding-bottom: 32px;
+
+}
+
+.rotate{
+    padding:0 16px; 
+    transform: rotate(180deg);
+}
+
+ul.download{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.download a:hover{
+    text-decoration: underline;
+}
+li.p20{
+    padding: 20px 0; 
+}
+
+.w1440{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.waBusiness{
+    max-width: 49%;
+    background-color: #D8E8EA;
+    padding-top: 80px; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+.mt40{
+    margin-top: 40px !important;
+}
+.bold{
+    font-weight: bold !important;
+}
+
+.waBusiness img{
+    max-width: 54%; 
+}
+.w80{
+    max-width: 80%; 
+}
+.h80{
+    height: 80px; 
+}
+.h50{
+    height: 50px; 
+}
+
+.secure{
+    width: 49%; 
+    background-color:  #E7F0E4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.secure h3{
+    color: #5E5E5E;
+    font-size: 16px;
+}
+
+.btnBox{
+    width: fit-content;
+    margin: auto;
+    padding: 100px;
+}
+.btnBox a{
+    text-align : center;
+    text-decoration: none;
+    color: #128c7e;
+    background: #fff;
+    border: 2px solid #77d7c8;
+    padding: 16px 32px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer.main{
+    background-color: #273443;
+    padding: 56px 20px;
+}
+footer h3{
+    font-size: 16px;
+    padding-bottom: 32px;
+    color: white;
+}
+footer .container{
+    align-items: flex-start;
+}
+footer.main .container{
+    display: flex;
+}
+footer .menu{
+    width: 25%; 
+}
+
+footer .menu li{
+    list-style: none;
+    font-size: 18px;
+    padding-bottom: 5px; 
+} 
+.legal{
+    padding: 30px;  
+    background-color: #1c1e21;
+    color: white;
+    font-size: 16px;
+}
+.legal a{
+    text-decoration: none; 
+    color: white ;
+}
